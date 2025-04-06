@@ -15,7 +15,7 @@ function showUserPosts(user) {
     console.log(user);
 }
 
-
+!
 function userHTML(user) {
     return `<div class="user-card" onclick="showUserPosts(${user.id})">
     <div class="user-card__container">
